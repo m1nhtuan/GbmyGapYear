@@ -2,7 +2,7 @@
 
 ## Sliding Windows
 
-class Solution {
+<pre> ```class Solution {
 public:
 // ✅ Helper function to check if a character is a vowel
 bool isVowel(char c) {
@@ -33,3 +33,4 @@ return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
     }
 
 };
+``` </pre>
