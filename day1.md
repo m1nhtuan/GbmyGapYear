@@ -1,6 +1,10 @@
-# Leetcode
+# Day 1
 
-## Sliding Windows
+## LeetCode
+
+### Sliding Windows
+
+Problem 1456
 
 ```cpp
 class Solution {
@@ -34,4 +38,37 @@ return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
     }
 
 };
+```
+
+### JS Review
+
+#### 1 Js Fundermental
+
+- **Data types**:
+  - **Primitive**: num, string, boolean, undefined, null, symbol, BigInt
+  - **Non-Primitive**
+- **Dynamic typing**: We don't need to declare the exact type of a variable before using it
+- typeof **undefined** is **undefined**
+- typeof **null** is **object**
+- **const**: must be assigned a value when declared (unlike **var** or **let**, which don’t require initialization)
+- 2\*\*3 <=> 2^3
+- **type conversion or coercion**
+
+```js
+//Conversion
+let num = "123";
+let converted = Number(num);
+//Coercion
+console.log("5" - 2);
+```
+
+- **NaN**(Not a number) but typeof it is a Number
+- A value in JavaScript can be converted to a number, string, or boolean, but undefined and null cannot be meaningfully converted.
+- **Coersion** Js automatically convert to number if it ussing operator \*, / , - not with +
+- **5 Falsy values** 0, '', undefined, null, NaN
+- **==** Strict equality operator doesn't perform type coersion
+- **Statment** vs **Expression**
+
+```js
+console.log(`Hello ${value}`); // this is a statement and value is a expression
 ```
